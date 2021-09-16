@@ -10,10 +10,14 @@ nav a{
 	color:#FFF;text-decoration:0;padding:0 5px
 }
 nav a:hover{color:lightsalmon}
+body>h1{font-size:30px;text-align:center;border-bottom:solid 1px #AAA}
+body>h2{font-size:25px}
+.q::before{display:inline-block;content:'?';font-family:cursive;color:#DDD;font-size:30px;margin-right:5px}
+body>h3{font-size:20px}
+.a::before{display:inline-block;content:'.';font-family:cursive;color:#DDD;font-size:30px;margin-right:5px}
 #greet{height:250px;background-color:#CFF;
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	text-align:center;
-	font-size:50px;
+	font-size:50px;border:0
 }
